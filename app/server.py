@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/u/0/uc?id=1JSJW27BM_JnFu8HzxIr_shmYQsGNa90P&export=download'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/u/0/uc?id=1dHt3E5CphAIpM8svvhuWbNfFcuGN2TTj&export=download'
+export_file_name = 'sports_classifier.pkl'
 
 classes = ['basketball_player', 'boxer', 'cricketer', 'footballer']
 path = Path(__file__).parent
