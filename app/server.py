@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/u/0/uc?id=1dHt3E5CphAIpM8svvhuWbNfFcuGN2TTj&export=download'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/u/0/uc?id=1pgZ32Kb4xR4dhoR58Dgk7abJ0Vwr6dVc&export=download'
+export_file_name = 'sports_model_weights.pkl'
 
 classes = ['basketball_player', 'boxer', 'cricketer', 'footballer']
 path = Path(__file__).parent
