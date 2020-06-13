@@ -5,9 +5,9 @@ RUN apt-get update && apt-get install -y git python3-dev gcc \
 
 COPY requirements.txt .
 
-RUN pip install --no-cache-dir -r requirements.txt --upgrade
-
 RUN pip install fastai --upgrade
+
+RUN pip install --no-cache-dir -r requirements.txt --upgrade
 
 COPY app app/
 
